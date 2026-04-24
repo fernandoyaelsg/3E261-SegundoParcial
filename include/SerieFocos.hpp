@@ -18,7 +18,16 @@ public:
     void EncenderFocos(){
         for (auto &&f : focos)
         {
-            f.Apagar();
+            f.Encender();
         }
     }
+    void ApagarFocos(){
+        
+    for (auto &&f : focos)
+    {
+        f.Apagar();
+    
+    }
+    }
+    
 };

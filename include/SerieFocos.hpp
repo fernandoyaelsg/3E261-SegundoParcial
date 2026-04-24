@@ -15,4 +15,10 @@ public:
             std::cout<<f.LeerEstado();
         }
     }
+    void EncenderFocos(){
+        for (auto &&f : focos)
+        {
+            f.Apagar();
+        }
+    }
 };

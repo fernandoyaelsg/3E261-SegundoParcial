@@ -1,8 +1,12 @@
 #include <iostream>
 
 using namespace std;
-
-int main(){
+int*dir;
+int*dir=(int*)malloc(sizeof(int));
+*dir=7;
+cout<<malloc(4)<<endl;
+int*dir2= new int;
+/*int main(){
     cout<<"int: "<<sizeof(int)<<endl;
     cout<<"double: "<<sizeof(double)<<endl;
     cout<<"float: "<<sizeof(float)<<endl;

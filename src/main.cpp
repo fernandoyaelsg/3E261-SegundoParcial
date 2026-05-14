@@ -12,3 +12,5 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+//int*dir;
+//cout<<malloc(4)<<endl;
